@@ -1,0 +1,38 @@
+.first-section {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color:var(--color-black);
+}
+
+.intro__heading {
+	margin-top:130px;
+	font-size:4.9em;
+	font-family: Raleway,sans-serif;
+}
+
+.intro__paragraph {
+	font-size:1.6em;
+	margin: 22px 0 38px;
+}
+.special-btn {
+	display: inline-block;
+	padding: 22px 70px;
+	font-weight: 700;
+	color: var(--color-white);
+	background-color: var(--color-primary);
+	border-radius: var(--radius-main-btn);
+	box-shadow: 3px 10px 14px var(--color-primary-shadow);
+	border: none;
+	transition: 0.5s;
+	transition-property: padding, font-size;
+}
+
+.special-btn:hover {
+	padding: 22px 155px;
+	font-size:1.8em;
+}
+.intro-img {
+	width: 100%;
+	height: auto;
+}

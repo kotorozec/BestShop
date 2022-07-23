@@ -1,7 +1,7 @@
 header {
 	-webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-	height: 7em;
+	height: 70px;
 }
 
 .flex_row {
@@ -40,7 +40,7 @@ header {
 }
 
 .nav__link {
-	padding: 2.8em 1.8em 2.2em;
+	padding: 28px 18px 22px;
 	border-bottom: 4px solid transparent;
 	font-weight: 700;
 	font-size: 1.1em;
