@@ -1,0 +1,84 @@
+.section-why-us {
+	margin-top: 100px;
+}
+
+h2 {
+	font-size: 32px;
+	text-align: center;
+	font-family: Raleway, sans-serif;
+}
+.icon-flex {
+	max-width: 800px;
+	margin: 100px auto 120px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.why-us-column {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	max-width: 160px;
+	font-family: Raleway, sans-serif;
+}
+
+.why-us-icon--reddish,
+.why-us-icon--primary,
+.why-us-icon--green {
+	position: relative;
+	align-self: center;
+	width: 63px;
+	aspect-ratio: 1;
+}
+
+.why-us-icon--reddish {
+	background: transparent url('/images/Person.svg') no-repeat center center/contain;
+}
+
+.why-us-icon--green {
+	background: transparent url('/images/Catalog.svg') no-repeat center center/contain;
+}
+
+.why-us-icon--primary {
+	background: transparent url('/images/Eye.svg') no-repeat center center/contain;
+}
+
+.why-us-icon--reddish::after,
+.why-us-icon--primary::after,
+.why-us-icon--green::after {
+	content: '';
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	left: -30%;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	mix-blend-mode: multiply;
+}
+
+.why-us-icon--reddish::after {
+	background-color: var(--color-redish);
+}
+
+.why-us-icon--primary::after {
+	background-color: var(--color-primary);
+}
+
+.why-us-icon--green::after {
+	background-color: var(--color-green);
+}
+
+.numbers {
+	margin-top: 13px;
+	font-size: 2em;
+	font-weight: 800;
+	letter-spacing: 0.5em;
+}
+
+.description {
+	margin-top: 19px;
+	font-size: 1.9em;
+	color: var(--color-grey);
+	text-align: center;
+}
