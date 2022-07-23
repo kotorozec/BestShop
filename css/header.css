@@ -1,0 +1,60 @@
+header {
+	-webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	height: 7em;
+}
+
+.flex_row {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height:100%;
+}
+
+.header__logo {
+	font-size:3.2em;
+	font-weight: 300;
+	font-family: Raleway, sans-serif;
+	letter-spacing: 0;
+	text-align: left;
+	color: var(--color-primary);
+}
+
+.header__nav-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-column-gap:26px;
+	-moz-column-gap:26px;
+	column-gap:26px;
+}
+
+.nav__link {
+	padding: 2.8em 1.8em 2.2em;
+	border-bottom: 4px solid transparent;
+	font-weight: 700;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	color: var(--color-grey);
+	-webkit-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	-webkit-transition-property: border-color, color, font-size;
+	-o-transition-property: border-color, color, font-size;
+	transition-property: border-color, color, font-size;
+}
+
+.nav__link:hover {
+	border-color: var(--color-primary);
+	color:var(--color-black);
+}

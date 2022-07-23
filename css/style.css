@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700;800&display=swap');
-*{
+* {
 	box-sizing: border-box;
 }
 
@@ -12,20 +11,22 @@ html {
 	--color-white: #ffffff;
 	--color-grey: #a5a5a5;
 	--color-light-grey: #f7f7f7;
-	--radius-main-btn:40px;
-	--feature-box-radius:5px;
-	--pricing-box-radius:18px;
-	--pricing-btn-radius:23px;
-	--forms-btn-radius:35px;
+	--radius-main-btn: 40px;
+	--feature-box-radius: 5px;
+	--pricing-box-radius: 18px;
+	--pricing-btn-radius: 23px;
+	--forms-btn-radius: 35px;
 }
 
-body{
+body {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
 }
 
 a {
 	text-decoration: none;
 }
+
 .container {
 	margin: 0 auto;
 	max-width: 1356px;
