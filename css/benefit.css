@@ -44,6 +44,11 @@
 	height: 4px;
 	background-color: var(--color-redish);
 	margin-top: 50px;
+	transition: 0.5s ease-in;
+}
+
+.special-decoration:hover::after {
+	width: 352px;
 }
 
 .benefits__img {
@@ -57,6 +62,7 @@
 	height: 219px;
 	position: relative;
 	z-index: 100;
+
 }
 
 .benefits__img::before{
@@ -71,6 +77,8 @@
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
+	transition: 0.5s ease-in-out;
+
 }
 
 .reverse {
@@ -151,4 +159,8 @@
 
 .benefits__flex-third .special-decoration::after{
 	background-color: var(--color-green);
+}
+
+.benefits__img:hover::before{
+	transform: scale(1.1) rotate(45deg);
 }
