@@ -1,0 +1,143 @@
+.section-prices {
+	padding-bottom: 50px;
+	background-color: var(--color-white);
+}
+
+.prices__heading {
+	padding: 100px 0 50px 0;
+}
+
+.flex-prices {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-evenly;
+	-ms-flex-pack: space-evenly;
+	justify-content: space-evenly;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 60px;
+}
+
+.flex-column-prices {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 372px;
+	min-height: 460px;
+	width: 100%;
+	border: 1px solid;
+	border-radius: var(--pricing-box-radius);
+}
+
+.prices_option-heading {
+	font-size: 2em;
+	font-weight: 700;
+	font-family: Raleway, sans-serif;
+	padding: 34px 0 14px;
+}
+
+.important-price-info {
+	font-size: 4.6em;
+	font-weight: 300;
+	padding-bottom: 10px
+}
+
+.limited-offer {
+	font-size: 1.2em;
+	font-weight: 700;
+	padding-bottom: 60px;
+}
+
+.include, .not-include {
+	font-size: 1.4em;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.include::before, .not-include::before {
+	content: "";
+	position: absolute;
+	left: -20px;
+	width: 11px;
+	height: 11px;
+	font-size: 11px;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 700;
+}
+
+.include::before {
+	content: "\f00c";
+	border: 2px solid var(--color-green);
+	color: var(--color-green);
+	padding-left: 1px
+}
+
+.not-include::before {
+	content: "\f00d";
+	border: 2px solid var(--color-redish);
+	color: var(--color-redish);
+	padding-left: 2px
+}
+
+.red {
+	color: var(--color-redish);
+}
+
+.blue {
+	color: var(--color-primary);
+}
+
+.green {
+	color: var(--color-green);
+}
+
+.professional {
+	min-height: 500px;
+	max-width: 405px;
+	width: 100%;
+}
+
+.red-box-border {
+	border-color: var(--color-redish);
+}
+
+.blue-box-border {
+	border-color: var(--color-primary);
+}
+
+.green-box-border {
+	border-color: var(--color-green);
+}
+
+.btn {
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	padding: 16px 65px;
+	border-radius: var(--pricing-btn-radius);
+	border: none;
+}
+
+.premium-btn, .basic-btn, .professional-btn {
+	position:relative;
+}
+
+.premium-btn, .basic-btn {
+	top:45px;
+}
+
+.premium-btn {
+	background-color:var(--color-green);
+}
+
+.basic-btn {
+	background-color:var(--color-redish);
+}
+
+.professional-btn {
+	background-color:var(--color-primary);
+	top:70px;
+}
