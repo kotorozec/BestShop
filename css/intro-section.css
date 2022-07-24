@@ -24,26 +24,29 @@
 }
 .special-btn {
 	display: inline-block;
-	padding: 22px 70px;
+	padding: 22px 55px;
 	font-weight: 700;
+	font-size: 2em;
 	color: var(--color-white);
 	background-color: var(--color-primary);
-	border-radius: var(--radius-main-btn);
 	-webkit-box-shadow: 3px 10px 14px var(--color-primary-shadow);
 	box-shadow: 3px 10px 14px var(--color-primary-shadow);
 	border: none;
-	-webkit-transition: 0.5s;
-	-o-transition: 0.5s;
-	transition: 0.5s;
-	-webkit-transition-property: padding, font-size;
-	-o-transition-property: padding, font-size;
-	transition-property: padding, font-size;
+	-webkit-transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+	-webkit-transition-property: border-radius,font-size, background-color, border, color;
+	-o-transition-property: border-radius,font-size, background-color, border, color;
+	transition-property: border-radius,font-size, background-color, border, color;
 }
 
 .special-btn:hover {
-	padding: 22px 155px;
-	font-size:1.8em;
+	border-radius: var(--radius-main-btn);
+	background-color: var(--color-white);
+	border: 2px dotted var(--color-primary);
+	color:var(--color-primary);
 }
+
 .intro-img {
 	width: 100%;
 	height: auto;
