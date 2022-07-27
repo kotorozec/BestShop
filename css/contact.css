@@ -1,0 +1,100 @@
+.contactandform {
+	padding: 50px 100px;
+}
+
+.flex__center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 110px;
+	min-height: 376px;
+}
+
+
+.contact__flex-icon-row {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	column-gap: 10px;
+}
+
+.contact__flex-column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 50%;
+}
+
+.contact__heading {
+	font-family: Raleway, sans-serif;
+	font-size: 4.9em;
+	padding-bottom: 20px;
+}
+
+.contact__heading + p {
+	font-size: 1.6em;
+	padding-bottom:40px;
+}
+
+.contact__icon {
+	max-height: 27px;
+	aspect-ratio: 1;
+	height: 100%;
+}
+
+.contact__icon + p {
+	color:var(--color-grey);
+	font-size: 1.6em;
+}
+
+.checkbox {
+	display: flex;
+	cursor: pointer;
+	padding-top:30px;
+	max-width: 440px;
+	color: var(--color-grey);
+	font-size: 1.2em;
+}
+
+.checkbox input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkbox  span {
+	height: 20px;
+	width: 20px;
+	flex-shrink: 0;
+	border: 1px solid var(--color-grey);
+	cursor: pointer;
+	margin-right: 15px;
+}
+.checkbox input:checked + span {
+	height: 20px;
+	width: 20px;
+	padding:2px;
+	background: transparent url("/images/Checkmark.svg") no-repeat center;
+	background-size: 10px;
+}
+
+.contact__flex-column label:not(.checkbox) {
+	align-self: start;
+	text-transform: uppercase;
+	color: var(--color-primary);
+	font-size:1.1em;
+	font-weight: 700;
+	margin-top:42px;
+}
+
+.contact__flex-column input {
+	width:100%;
+	max-width: 440px;
+	min-height: 57px;
+	border-color: var(--color-grey);
+	border-style: solid;
+	border-width: 0 0 1px 0;
+}
