@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/whyus.css">
     <link rel="stylesheet" href="./css/benefit.css">
     <link rel="stylesheet" href="./css/prices.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
     <script src="https://kit.fontawesome.com/3e25651a40.js" crossorigin="anonymous"></script>
     <title>BestShop</title>
@@ -152,20 +153,48 @@
 
         </div>
     </section>
-    <section id="contact"></section>
+    <section id="contact" class="section__contactandform">
+        <div class="container flex__center">
+            <div class="contact__flex-column">
+                <h2 class="contact__heading">Any questions?</h2>
+                <p>Leave your email address or call us!</p>
+                <div class="contact__flex-icon-row">
+                    <img src="./images/Mail%20Icon.svg" alt="" class="contact__icon">
+                    <p>info@bestshop.xyz</p>
+                    <img src="./images/Phone%20Icon.svg" alt="" class="contact__icon">
+                    <p>123 456 789</p>
+                </div>
+            </div>
+            <form action="" method="get" class="contact__flex-column">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <label for="e-mail">E-mail</label>
+                <input type="text" name="e-mail" id="e-mail">
+                <label for="checkbox" class="checkbox">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <span></span>
+                I hereby give consent for my personal data included in my application to be processed for the purposes
+                of the recruitment process under the European Parliament’s and Council of the European Union Regulation
+                on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data
+                and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+                </label>
+            </form>
+        </div>
+
+    </section>
 </main>
 <footer>
     <section class="footer">
-    <div class="container flex-footer">
-        <div class="footer-copyright">
-            <a href="#" >BestShop</a>
-            <span class="footer-copyright-txt">© 2019 BestShop LTD, All Rights Reserved</span>
+        <div class="container flex-footer">
+            <div class="footer-copyright">
+                <a href="#">BestShop</a>
+                <span class="footer-copyright-txt">© 2019 BestShop LTD, All Rights Reserved</span>
+            </div>
+            <div class="social-media-icons">
+                <a href="#"><img src="images/Twitter.svg" alt="twitter"/></a>
+                <a href="#"><img src="images/Facebook.svg" alt="facebook"/></a>
+            </div>
         </div>
-        <div class="social-media-icons">
-            <a href="#"><img src="images/Twitter.svg" alt="twitter"/></a>
-            <a href="#"><img src="images/Facebook.svg" alt="facebook"/></a>
-        </div>
-    </div>
     </section>
 </footer>
 </body>
